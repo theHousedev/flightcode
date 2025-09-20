@@ -1,0 +1,74 @@
+{
+    "airports": [
+    {
+      "icaoId": "KCGI",
+      "iataId": "CGI",
+      "faaId": "CGI",
+      "name": "CAPE GIRARDEAU/CAPE GIRARDEAU RGNL ",
+      "state": "MO",
+      "country": "US",
+      "source": "FAA",
+      "type": "ARP",
+      "lat": 37.2253,
+      "lon": -89.5708,
+      "elev": 104,
+      "magdec": "02W",
+      "owner": "P",
+      "rwyNum": "2",
+      "rwyLength": "M",
+      "rwyType": "C",
+      "services": "S",
+      "tower": "T",
+      "beacon": "B",
+      "operations": "0",
+      "freqs": "LCL/P,125.525",
+      "priority": "2",
+      "runways": [
+        {
+          "id": "02/20",
+          "dimension": "3997x100",
+          "surface": "A",
+          "alignment": 21
+        },
+        {
+          "id": "10/28",
+          "dimension": "6500x150",
+          "surface": "C",
+          "alignment": 106
+        }
+      ]
+    },
+    {
+        "icaoId": "KFAM",
+        "iataId": "FAM",
+        "faaId": "FAM",
+        "name": "FARMINGTON/FARMINGTON RGNL ",
+        "state": "MO",
+        "country": "US",
+        "source": "FAA",
+        "type": "ARP",
+        "lat": 37.7609,
+        "lon": -90.4287,
+        "elev": 288,
+        "magdec": "02W",
+        "owner": "P",
+        "rwyNum": "1",
+        "rwyLength": "M",
+        "rwyType": "C",
+        "services": "S",
+        "tower": null,
+        "beacon": "B",
+        "operations": "0",
+        "freqs": "-",
+        "priority": "4",
+        "runways": [
+          {
+            "id": "02/20",
+            "dimension": "4323x75",
+            "surface": "C",
+            "alignment": 24
+          }
+        ]
+      }
+  ]
+}

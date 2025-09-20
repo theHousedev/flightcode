@@ -1,0 +1,10 @@
+{
+    "aircraft": [
+        {
+            "reg": "N425DB",
+            "model_id": "C172N",
+            "empty_weight": 1479.8,
+            "empty_cg": 39.22
+        }
+    ]
+}
