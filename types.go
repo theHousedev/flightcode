@@ -1,7 +1,7 @@
 package main
 
 type (
-	feet   int
+	feet   float64
 	pounds float64
 	inches float64
 	knots  float64
@@ -18,7 +18,7 @@ type Model struct {
 }
 
 type Limits struct {
-	MaxGW pounds `json:"maxGW"`
+	MaxGW pounds `json:"max_gross"`
 	Vne   knots  `json:"vne"`
 	Vs0   knots  `json:"vs0"`
 	Ceil  feet   `json:"ceiling"`
@@ -36,7 +36,7 @@ type CGLimit struct {
 }
 
 type AircraftFile struct {
-	Aircraft []Aircraft `json:"aircraft"`
+	Aircraft map[string]Aircraft `json:"aircraft"`
 }
 
 type Aircraft struct {
